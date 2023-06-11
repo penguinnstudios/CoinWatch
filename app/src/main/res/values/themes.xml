@@ -1,0 +1,7 @@
+<resources>
+    <!-- Disables swipe on this activity -->
+    <style name="ThemeSingleCoinActivity" parent="android:Theme.DeviceDefault">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+</resources>

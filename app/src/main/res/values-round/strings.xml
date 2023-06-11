@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoinWatch</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="shared_pref_key">super_secret_key</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green_500">#009424</color>
+
+    <color name="default_text_color">#808080</color>
+    <color name="background_color">#303030</color>
+
+    <color name="spinner_bgr_color">#1d2e4d</color>
+
+    <!-- <color name="light_blue_color">#aecbfa</color> -->
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_400">#7E57C2</color>
+    <color name="purple_300">#9965f4</color>
+
+    <color name="selected_radio_btn_color">#555555</color>
+
+    <color name="gradient_place_holder_3">#5e667f</color>
+    <color name="gradient_place_holder_4">#4b5470</color>
+
+</resources>

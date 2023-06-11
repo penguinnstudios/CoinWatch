@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1885" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_drop_down.xml" value="0.2115" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_progress_layout.xml" value="0.153" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_radio_btn.xml" value="0.2525" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_radio_group.xml" value="0.261" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_rounded_radio_btn.xml" value="0.3175" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_selected_radio_btn.xml" value="0.171" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_shadow_viewholder_coin.xml" value="0.312" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_viewholder.xml" value="0.146" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_viewholder_add_more.xml" value="0.2185" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_viewholder_coin.xml" value="0.2185" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/gradient_place_holder_text.xml" value="0.188" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/gradient_purple.xml" value="0.3445" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_arrow_drop_down.xml" value="0.189" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_back.xml" value="0.3655" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_blue_add.xml" value="0.2185" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_blue_circle_add.xml" value="0.2185" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_btn_back.xml" value="0.2745" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1885" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_white_add.xml" value="0.2185" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_white_back.xml" value="0.2745" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_white_holo_circle.xml" value="0.35" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/purple_gradient.xml" value="0.35" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/radio_btn_bgr_highlight_selector.xml" value="0.2435" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/radio_button_text_selector.xml" value="0.2435" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/radio_group_selector.xml" value="0.2525" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ripple_btn_coin.xml" value="0.189" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ripple_viewholder.xml" value="0.306" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/activity_main.xml" value="0.7642857142857142" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/activity_select_favorite_coins.xml" value="1.8" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/drop_down_menu.xml" value="1.178125" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/favorites_activity.xml" value="1.1" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/layout_chart_marker.xml" value="2.04375" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/layout_drop_down_menu.xml" value="1.83125" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/line_chart_marker.xml" value="1.803125" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/line_chart_marker_2.xml" value="1.309375" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/line_chart_marker_index_zero.xml" value="1.190625" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/settings_activity.xml" value="0.4966442953020134" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/single_coin_activity.xml" value="0.7056277056277056" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder__favorites_title.xml" value="1.76875" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_add_coin.xml" value="1.0" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_coin.xml" value="0.7642857142857142" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_dropdown_option.xml" value="0.7374005305039788" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_empty.xml" value="1.0" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_empty_coin_layout.xml" value="0.9166666666666666" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_favorite.xml" value="0.75" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_favorites_title.xml" value="1.0375" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_progress_anim.xml" value="0.5961538461538461" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_save.xml" value="1.1821428571428572" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_settings.xml" value="0.8785714285714286" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_spinner_drop_down.xml" value="1.178125" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_title.xml" value="0.8785714285714286" />
+        <entry key="..\:/Users/CRE/AndroidStudioProjects/CoinWatch/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1885" />
+        <entry key="..\:/Users/ERC/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2595" />
+        <entry key="..\:/Users/ERC/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/bgr_viewholder.xml" value="0.124" />
+        <entry key="..\:/Users/ERC/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_wallet.xml" value="0.1705" />
+        <entry key="..\:/Users/ERC/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ic_white_add.xml" value="0.1995" />
+        <entry key="..\:/Users/ERC/AndroidStudioProjects/CoinWatch/app/src/main/res/drawable/ripple_viewholder.xml" value="0.124" />
+        <entry key="..\:/Users/ERC/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/activity_main.xml" value="0.8706365503080082" />
+        <entry key="..\:/Users/ERC/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_add_coin.xml" value="1.2607142857142857" />
+        <entry key="..\:/Users/ERC/AndroidStudioProjects/CoinWatch/app/src/main/res/layout/viewholder_coin.xml" value="1.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
