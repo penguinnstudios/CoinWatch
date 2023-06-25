@@ -3,10 +3,15 @@ package com.wearos.coinwatch.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewConfiguration;
 import android.widget.Toast;
 
 import androidx.activity.ComponentActivity;
+import androidx.core.view.InputDeviceCompat;
+import androidx.core.view.MotionEventCompat;
+import androidx.core.view.ViewConfigurationCompat;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearSnapHelper;
 import androidx.recyclerview.widget.SnapHelper;
@@ -60,6 +65,24 @@ public class MainActivity extends ComponentActivity implements CoinListAdapter.I
         coinListRecycler.setLayoutManager(new WearableLinearLayoutManager(this, new CustomScroll()));
         coinListRecycler.setItemAnimator(null);
         coinListRecycler.setAdapter(coinListAdapter);
+        coinListRecycler.setOnGenericMotionListener((v, ev) -> {
+            if (ev.getAction() == MotionEvent.ACTION_SCROLL &&
+                    ev.isFromSource(InputDeviceCompat.SOURCE_ROTARY_ENCODER)
+            ) {
+                // Don't forget the negation here
+                float delta = -ev.getAxisValue(MotionEventCompat.AXIS_SCROLL) *
+                        ViewConfigurationCompat.getScaledVerticalScrollFactor(
+                                ViewConfiguration.get(MainActivity.this), MainActivity.this
+                        );
+
+                // Swap these axes to scroll horizontally instead
+                v.scrollBy(0, Math.round(delta));
+
+                return true;
+            }
+            return false;
+        });
+
 
         //Makes view holders snap to center of screen
         SnapHelper snapHelper = new LinearSnapHelper();
@@ -92,6 +115,9 @@ public class MainActivity extends ComponentActivity implements CoinListAdapter.I
     private void displayMainLayout() {
         new Handler().postDelayed(() -> {
             coinListRecycler.setVisibility(View.VISIBLE);
+            //Must call request focus after making visible in order to use rotary
+            coinListRecycler.requestFocus();
+
             progressRecycler.animate().alpha(0f).setDuration(300).withEndAction(() -> {
                 progressRecycler.setVisibility(View.GONE);
             });

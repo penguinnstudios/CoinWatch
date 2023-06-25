@@ -6,18 +6,30 @@
     android:paddingTop="6dp"
     android:paddingBottom="6dp">
 
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/app_icon_coin"
+        app:layout_constraintBottom_toBottomOf="@id/tv_static_app_name"
+        app:layout_constraintEnd_toStartOf="@+id/tv_static_app_name"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_static_app_name" />
+
     <TextView
+        android:id="@+id/tv_static_app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingStart="6dp"
-        android:paddingEnd="6dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="6dp"
         android:text="CoinWatch"
-        android:textStyle="bold"
-        android:textSize="18sp"
         android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_logo"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

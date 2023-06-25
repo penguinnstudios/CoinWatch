@@ -1,9 +1,14 @@
 package com.wearos.coinwatch.ui;
 
 import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.ViewConfiguration;
 
 import androidx.activity.ComponentActivity;
 import androidx.annotation.Nullable;
+import androidx.core.view.InputDeviceCompat;
+import androidx.core.view.MotionEventCompat;
+import androidx.core.view.ViewConfigurationCompat;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
@@ -46,6 +51,26 @@ public class FavoritesActivity extends ComponentActivity implements FavoritesAda
         }
 
         recyclerView.setAdapter(adapter);
+        recyclerView.setOnGenericMotionListener((v, ev) -> {
+            if (ev.getAction() == MotionEvent.ACTION_SCROLL &&
+                    ev.isFromSource(InputDeviceCompat.SOURCE_ROTARY_ENCODER)
+            ) {
+                // Don't forget the negation here
+                float delta = -ev.getAxisValue(MotionEventCompat.AXIS_SCROLL) *
+                        ViewConfigurationCompat.getScaledVerticalScrollFactor(
+                                ViewConfiguration.get(FavoritesActivity.this), FavoritesActivity.this
+                        );
+
+                // Swap these axes to scroll horizontally instead
+                v.scrollBy(0, Math.round(delta));
+
+                return true;
+            }
+            return false;
+        });
+
+        //Must call requestFocus to use rotary
+        recyclerView.requestFocus();
 
         SnapHelper snapHelper = new LinearSnapHelper();
         snapHelper.attachToRecyclerView(recyclerView);
