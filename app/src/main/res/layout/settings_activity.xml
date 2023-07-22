@@ -65,7 +65,7 @@
                 android:gravity="center_vertical"
                 android:paddingStart="6dp"
                 android:paddingEnd="6dp"
-                android:text="CoinWatch\n1.0.2"
+                android:text="CoinWatch\n1.1.0"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
