@@ -95,19 +95,6 @@
             app:layout_constraintBottom_toBottomOf="parent">
 
             <RadioButton
-                android:id="@+id/radio_btn_day"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/radio_btn_bgr_highlight_selector"
-                android:button="@null"
-                android:gravity="center"
-                android:paddingTop="1dp"
-                android:paddingBottom="1dp"
-                android:text="D"
-                android:textColor="@drawable/radio_btn_text_selector" />
-
-            <RadioButton
                 android:id="@+id/radio_btn_week"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -131,6 +118,19 @@
                 android:paddingTop="1dp"
                 android:paddingBottom="1dp"
                 android:text="M"
+                android:textColor="@drawable/radio_btn_text_selector" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_three_months"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/radio_btn_bgr_highlight_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp"
+                android:text="3M"
                 android:textColor="@drawable/radio_btn_text_selector" />
 
             <RadioButton

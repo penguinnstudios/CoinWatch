@@ -100,10 +100,14 @@ public class FormatUtils {
 
     private static String priceToDecimalString(double currentPrice) {
         String s;
-        if (currentPrice > 0.01) {
+        if (currentPrice >= 1.00) {
             s = String.format(Locale.ENGLISH, "%,.2f", currentPrice);
+        } else if (currentPrice < 1.00 && currentPrice >= 0.01) {
+            DecimalFormat df = new DecimalFormat("0.#####");
+            s = df.format(currentPrice);
         } else {
-            s = calculateSmallPriceValue(currentPrice);
+            DecimalFormat df = new DecimalFormat("0.########");
+            s = df.format(currentPrice);
         }
         return s;
     }

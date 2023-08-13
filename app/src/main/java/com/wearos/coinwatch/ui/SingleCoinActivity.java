@@ -62,18 +62,6 @@ public class SingleCoinActivity extends ComponentActivity {
     @BindView(R.id.radiogroup)
     RadioGroup radioGroup;
 
-    @BindView(R.id.radio_btn_day)
-    RadioButton radioBtnDay;
-
-    @BindView(R.id.radio_btn_week)
-    RadioButton radioBtnWeek;
-
-    @BindView(R.id.radio_btn_month)
-    RadioButton radioBtnMonth;
-
-    @BindView(R.id.radio_btn_year)
-    RadioButton radioBtnYear;
-
     private SingleCoinViewModel viewModel;
     private ChartMarker chartMarkerIndexZero, chartMarker;
 
@@ -270,16 +258,10 @@ public class SingleCoinActivity extends ComponentActivity {
     }
 
     @OnClick(R.id.layout_top_chin)
-    void onBack(){
+    void onBack() {
         finish();
     }
 
-    @OnClick(R.id.radio_btn_day)
-    void onDay() {
-        viewModel.setMarketChartInterval(MarketChartType.DAY);
-        checkSelectedRadioBtn();
-        viewModel.getPriceHistory();
-    }
 
     @OnClick(R.id.radio_btn_week)
     void onWeek() {
@@ -291,6 +273,13 @@ public class SingleCoinActivity extends ComponentActivity {
     @OnClick(R.id.radio_btn_month)
     void onMonth() {
         viewModel.setMarketChartInterval(MarketChartType.MONTH);
+        checkSelectedRadioBtn();
+        viewModel.getPriceHistory();
+    }
+
+    @OnClick(R.id.radio_btn_three_months)
+    void onThreeMonths() {
+        viewModel.setMarketChartInterval(MarketChartType.THREE_MONTHS);
         checkSelectedRadioBtn();
         viewModel.getPriceHistory();
     }

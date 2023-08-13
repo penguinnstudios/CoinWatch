@@ -2,9 +2,9 @@ package com.wearos.coinwatch.data.model;
 
 public enum MarketChartType {
 
-    DAY(0, 1, "hourly"),
-    WEEK(1, 7, "daily"),
-    MONTH(2, 30, "daily"),
+    WEEK(0, 7, "daily"),
+    MONTH(1, 30, "daily"),
+    THREE_MONTHS(2, 90, "daily"),
     YEAR(3, 365, "daily");
 
     private final int radioGroupIndex;

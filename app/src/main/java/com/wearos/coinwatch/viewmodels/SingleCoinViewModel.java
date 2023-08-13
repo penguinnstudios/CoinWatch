@@ -37,12 +37,12 @@ public class SingleCoinViewModel extends ViewModel {
     private final LocalRepository localRepository;
     private final MutableLiveData<SingleCoinUIState> liveData = new MutableLiveData<>();
     private final List<PriceSnapshot> list = new ArrayList<>();
-    private final Currency currency;
     private final SignedNumber signedNumber;
     private final String formattedPrice;
     private final String formattedPercentChange;
-    private MarketChartType marketChartType = MarketChartType.WEEK;
     private final CompositeDisposable compositeDisposable = new CompositeDisposable();
+    //The first selected radio button
+    private MarketChartType marketChartType = MarketChartType.WEEK;
 
     @Inject
     public SingleCoinViewModel(
@@ -50,7 +50,7 @@ public class SingleCoinViewModel extends ViewModel {
             LocalRepository localRepository,
             SharedPrefManager sharedPrefManager
     ) {
-        this.currency = sharedPrefManager.getCurrencyType();
+        Currency currency = sharedPrefManager.getCurrencyType();
         double percentChange = Double.parseDouble(sharedPrefManager.getPercentChange());
         double currentPrice = Double.parseDouble(sharedPrefManager.getCoinPrice());
         this.signedNumber = FormatUtils.convertToSignedNumber(percentChange);
@@ -135,10 +135,6 @@ public class SingleCoinViewModel extends ViewModel {
 
     public List<PriceSnapshot> getList() {
         return list;
-    }
-
-    public Currency getCurrencyType() {
-        return currency;
     }
 
     public SignedNumber getSignedNumber() {
