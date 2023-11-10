@@ -66,7 +66,12 @@ public enum Coin {
     FLOW(52, "Flow", "FLOW", R.drawable.flow, "flow"),
     AXIE_INFINITY(53, "Axie Infinity", "AXS", R.drawable.axie_infinity, "axie-infinity"),
     ROCKET_POOL(54, "Rocket Pool", "RPL", R.drawable.rocketpool, "rocket-pool"),
-    FANTOM(55, "Fantom", "FTM", R.drawable.fantom, "fantom");
+    FANTOM(55, "Fantom", "FTM", R.drawable.fantom, "fantom"),
+    SEI_NETWORK(56, "Sei", "SEI", R.drawable.sei, "sei-network"),
+    OCEAN_PROTOCOL(57, "Ocean Protocol", "OCEAN", R.drawable.ocean, "ocean-protocol"),
+    FRAX_SHARE(58, "Frax Share", "FXS", R.drawable.frax_share, "frax-share"),
+    TRUST_WALLET(59, "Trust Wallet", "TWT", R.drawable.trust, "trust-wallet-token"),
+    ARWEAVE(60, "Arweave", "AR", R.drawable.arweave, "arweave");
 
     private static final Map<String, Coin> map;
 

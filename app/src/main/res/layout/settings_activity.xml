@@ -14,6 +14,11 @@
         android:scrollbars="vertical"
         app:layout_boxedEdges="all">
 
+        <!-- allows rotary scrolling -->
+        <requestFocus
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -65,7 +70,7 @@
                 android:gravity="center_vertical"
                 android:paddingStart="6dp"
                 android:paddingEnd="6dp"
-                android:text="CoinWatch\n1.1.1"
+                android:text="CoinWatch\n1.1.3"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"

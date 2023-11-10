@@ -5,5 +5,5 @@
     values-round/strings.xml for round devices.
     -->
     <string name="shared_pref_key">super_secret_key</string>
-    <string name="too_many_requests_info">CoinWatch uses CoinGecko\'s free API that\'s limited to 20 requests per min</string>
+    <string name="too_many_requests_info">CoinWatch uses CoinGecko\'s free API that\'s limited to 30 requests per min</string>
 </resources>

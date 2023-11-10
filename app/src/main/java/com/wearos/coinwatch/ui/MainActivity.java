@@ -9,6 +9,7 @@ import android.view.ViewConfiguration;
 import android.widget.Toast;
 
 import androidx.activity.ComponentActivity;
+import androidx.core.splashscreen.SplashScreen;
 import androidx.core.view.InputDeviceCompat;
 import androidx.core.view.MotionEventCompat;
 import androidx.core.view.ViewConfigurationCompat;
@@ -47,6 +48,8 @@ public class MainActivity extends ComponentActivity implements CoinListAdapter.I
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        SplashScreen.installSplashScreen(this);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);

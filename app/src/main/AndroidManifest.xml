@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-feature android:name="android.hardware.type.watch" />
 
     <application
@@ -11,8 +12,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@android:style/Theme.DeviceDefault">
+        android:supportsRtl="true">
         <uses-library
             android:name="com.google.android.wearable"
             android:required="true" />
@@ -27,7 +27,8 @@
 
         <activity
             android:name="com.wearos.coinwatch.ui.MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -36,19 +37,18 @@
 
         <activity
             android:name="com.wearos.coinwatch.ui.FavoritesActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault"/>
 
         <activity
             android:name="com.wearos.coinwatch.ui.SettingsActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault"/>
 
         <activity
             android:name="com.wearos.coinwatch.ui.SingleCoinActivity"
             android:exported="true"
-            android:theme="@style/ThemeSingleCoinActivity">
-        </activity>
+            android:theme="@style/ThemeSingleCoinActivity" />
     </application>
 
 </manifest>
