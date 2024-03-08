@@ -8,6 +8,7 @@ CoinWatch is a simple, real time, crypto price tracking app for your smartwatch.
 # Android development
 
 - Built with Java and RxJava
+- Uses CoinGecko's free tier API
 - Implements MVVM Clean Architecture 
 - Uses Android Room
 - Uses Dagger-Hilt for dependency injection
