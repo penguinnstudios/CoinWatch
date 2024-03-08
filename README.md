@@ -5,6 +5,12 @@ CoinWatch is a simple, real time, crypto price tracking app for your smartwatch.
 
 🌍 Multi-Currency Support: Monitor crypto prices in over 30 different fiat currencies, including USD, EUR, JPY, and many others. Choose your preferred currency and stay informed, no matter where you are.
 
+# Android development
+
+- Built with Java and RxJava
+- Implements MVVM Clean Architecture 
+- Uses Android Room
+- Uses Dagger-Hilt for dependency injection
 
 # Download
 
