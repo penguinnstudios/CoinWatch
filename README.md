@@ -16,3 +16,7 @@ CoinWatch is a simple, real time, crypto price tracking app for your smartwatch.
 # Download
 
 [![Playstore](https://i.imgur.com/egBW0oo.png)](https://play.google.com/store/apps/details?id=com.wearos.coinwatch)
+
+![alt text](https://i.imgur.com/ECjSUp4.png)
+
+![alt text](https://i.imgur.com/l7gtIVa.png)
